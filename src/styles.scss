@@ -1,1 +1,99 @@
-/* You can add global styles to this file, and also import other style files */
+/*--------------------- variables  colores--------------------*/
+$Primary: linear-gradient(to right, rgba(91, 9, 35, 0.597), rgba(222, 2, 53, 0.597));
+$Text: rgba(255, 255, 255, 0.6);
+$SmallText: 1.4vw;
+$MediumText: 1.8vw;
+$background: rgb(13,13,18);
+$icon: url(./assets/img/icon.png);
+/*------------------------------------------------*/
+html{
+    background-color: $background;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    margin: 3vh auto;
+}
+/*--------------------- TARJETAS--------------------*/
+.sectionPortada >   h2{
+    color: $Text;
+    display: flex;
+    position: relative;
+    margin: 5vw 6vw;
+}
+.etiqueta{
+    background-image: $Primary;
+    width: 0.7vw;
+    height: 2vw;
+     display: flex;
+    position: absolute;
+    margin: 0.2vw 5vw;
+}
+.containerCard{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 50vw;
+    display: grid;
+    margin: 5vw ;
+    justify-items: center;
+    grid-template-columns: repeat(6, auto); /* Aquí se indica que haya 5 columnas de tamaño igual */
+    grid-gap: 2vw 5vw; /* Espacio entre elementos */
+}
+.item {
+    width: 10vw; /* Ancho relativo al ancho de la ventana de visualización */
+    height: 15vw; /* Altura relativa al ancho de la ventana de visualización */
+    background-image: rgb(170, 0, 0);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+/*--------------------- TEXTOS--------------------*/
+h1{
+    color: $Text;
+    font-size: $SmallText;
+    
+}
+/*---------------------------- BAR NAV --------------------------------*/
+
+nav{
+    background-image: $Primary;
+    width: 100%;
+    height: 8vh;
+    border-radius: 0vw 0vw 1vw 1vw;
+}
+.containerMenu{
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+}
+.containerMenu > *{
+    
+    padding: 0vw 1vw;
+    color: $Text;
+    list-style: none;
+    font-size: $MediumText;
+    font-weight: bold;
+    
+}
+.icon{
+    background-image: $icon;
+    width: 6vw;
+    height: 6vh;
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+}

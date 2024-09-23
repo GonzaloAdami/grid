@@ -1,0 +1,46 @@
+{
+    "personajes": [
+        {
+            "title": "Rick and morty",
+            "link": "system-movies.component.html",
+            "image": "https://es.web.img3.acsta.net/pictures/18/10/31/17/34/2348073.jpg"
+        },
+        {
+            "title": "castlevania: Nocturne",
+            "link": "link",
+            "image": "https://m.media-amazon.com/images/M/MV5BMTA1MmQxNDctNTJlOC00YzFkLTg1OGUtMWQ0Y2YzNDg4ODE1XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+        },
+        {
+            "title": "Spy x family season 2",
+            "link": "link",
+            "image": "https://okami.com.ar/wp-content/uploads/2023/09/spy-x-family-2-1.jpg"
+        },
+        {
+            "title": "Shingeki no kioyi",
+            "link": "link",
+            "image": "https://larepublica.cronosmedia.glr.pe/original/2023/03/03/63ff96f4c3137b528a2e3c55.jpg"
+        },
+        {
+            "title": "Kun fu panda",
+            "link": "link",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB9dIfQU644TleBWAJRnrXyX-Cl4yW17PIYIClcARvjYsJ1T361a3238bClNxUzZD0pg8&usqp=CAU"
+        },
+        {
+            "title": "Made in abyss",
+            "link": "https://mega.nz/embed/2iwVSC5Q#w3iDb_ov39Yw-TOcGp2ymzNz8xHx6lLGmzE7sfXQzDA",
+            "image": "https://pics.filmaffinity.com/Made_in_Abyss_Serie_de_TV-532062408-large.jpg"
+        },
+        {
+            "title": "Kun fu panda",
+            "link": "link",
+            "image": "red"
+        },
+        {
+            "title": "Kun fu panda",
+            "link": "link",
+            "image": "blue"
+        }
+
+
+    ]
+}
